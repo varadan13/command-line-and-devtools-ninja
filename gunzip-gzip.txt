@@ -1,0 +1,7 @@
+to ungzip a file use 
+  
+  >> gunzip file.gz
+  
+to gzip a file use
+
+  >> gzip file
