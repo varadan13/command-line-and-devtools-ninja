@@ -1,0 +1,3 @@
+>> chmod +x checkurls.sh
+   
+   give execute privileges to the file using the above command
