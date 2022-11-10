@@ -1,0 +1,12 @@
+tar command to zip and unzip directories
+
+>> tar -zcvf archive.tar.gz directory/ 
+   
+   z - compress it using the z (gzip) algorithm
+   c - (create) an archive from the files in directory (tar is recursive by default) 
+   v - (verbosely) list all the files it adds to the archive. 
+   f - store the output as a f (file) named archive.tar.gz
+
+>> tar -zxvf archive.tar.gz
+
+   use to decompress the archive the file
