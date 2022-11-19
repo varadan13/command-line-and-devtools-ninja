@@ -1,0 +1,5 @@
+https://commitizen-tools.github.io/commitizen/#installation
+
+usage
+
+cz c
