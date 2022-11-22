@@ -1,0 +1,6 @@
+to watch the current activeElement in console
+
+1. open the dev tools
+2. open up console
+3. at the top click on create live expression
+4. enter document.activeElement
