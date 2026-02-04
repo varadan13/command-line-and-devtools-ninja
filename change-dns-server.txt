@@ -1,3 +1,22 @@
-1.  open /etc/resolv.conf
+# Change system DNS server
 
-2. change nameserver default-value to 8.8.8.8 or to 1.1.1.1
+# /etc/resolv.conf — file that tells the system which DNS servers to use for
+# resolving hostnames. Edit as root (e.g. sudo nano /etc/resolv.conf).
+
+# Nameserver options:
+#   8.8.8.8   — Google Public DNS
+#   1.1.1.1   — Cloudflare DNS
+
+# Note: On many Linux systems, resolv.conf is managed by systemd-resolved,
+# NetworkManager, or another service. Manual edits may be overwritten on reboot
+# or when the network reconnects. To make changes persistent, configure DNS in
+# your network manager (e.g. NetworkManager connection settings) or in
+# systemd-resolved (e.g. /etc/systemd/resolved.conf).
+
+# Steps
+# -----
+# 1. Open /etc/resolv.conf (e.g. sudo nano /etc/resolv.conf).
+# 2. Change the nameserver line to one of:
+#      nameserver 8.8.8.8
+#      nameserver 1.1.1.1
+#    (You can list multiple nameserver lines; the system uses them in order.)
